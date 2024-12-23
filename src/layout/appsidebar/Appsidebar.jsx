@@ -20,6 +20,12 @@ const StyledNavLink = styled(NavLink)`
     color: var(--color-grey-800);
     background-color: var(--bg-white);
     border-radius: var(--border-radius-md);
+
+    svg {
+      path {
+        fill: var(--bg-primary);
+      }
+    }
   }
 
   &.active {
