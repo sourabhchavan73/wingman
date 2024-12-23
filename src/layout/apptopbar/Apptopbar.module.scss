@@ -13,18 +13,11 @@
   border-bottom: 1px solid var(--border-light-gray-blue);
 
   .navMenu {
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 500;
     line-height: 21.6px;
     letter-spacing: -0.01em;
     text-align: left;
     color: var(--color-light);
-
-    &.active {
-      background: var(--bg-light);
-      padding: 12px;
-      border-radius: 1200px;
-      color: var(--color-primary);
-    }
   }
 }
