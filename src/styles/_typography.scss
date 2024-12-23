@@ -1,0 +1,13 @@
+.text {
+  &.size-18 {
+    font-size: 18px;
+  }
+
+  //   color
+  &.text-primary {
+    color: var(--color-primary);
+  }
+  &.text-light {
+    color: var(--color-light);
+  }
+}

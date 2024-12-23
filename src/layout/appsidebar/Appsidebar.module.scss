@@ -1,0 +1,33 @@
+.layoutSidebar {
+  position: fixed;
+  height: 100%;
+  top: 0;
+  left: 0;
+  width: 60px;
+  background: var(--bg-primary);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  padding: 20px 15px;
+  z-index: 2;
+
+  .divider {
+    height: 2px;
+    background-color: var(--bg-primary-darker);
+  }
+
+  .menuContainer {
+    li {
+      cursor: pointer;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+
+    .active {
+      border-radius: 8px;
+      background-color: #fff;
+    }
+  }
+}

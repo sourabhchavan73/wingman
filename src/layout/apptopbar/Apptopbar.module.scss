@@ -1,0 +1,30 @@
+.navbarContainer {
+  position: fixed;
+  height: 85px;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  padding-left: 6rem;
+  background-color: var(--surface-card);
+  transition: left 0.2s;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid var(--border-light-gray-blue);
+
+  .navMenu {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.6px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: var(--color-light);
+
+    &.active {
+      background: var(--bg-light);
+      padding: 12px;
+      border-radius: 1200px;
+      color: var(--color-primary);
+    }
+  }
+}
