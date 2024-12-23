@@ -39,6 +39,7 @@ function Apptopbar() {
       <ul className="flex gap-5">
         {icons.map((icon) => (
           <li
+            key={icon.label}
             className={`flex items-center gap-2 cursor cursor-pointer text text-primary  ${styles.navMenu}`}
           >
             <StyledNavLink to={icon.link}>
