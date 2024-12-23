@@ -11,6 +11,10 @@ const GlobalStyles = createGlobalStyle`
 				--color-dark: #000000;
         --color-primary: #212636;
         --color-light: #8A94A6;
+        --color-gray: #667085;
+        --color-trend-up:#15B79F;
+        --color-trend-down:#F04438;
+
 				/* background */
 				--bg-primary: #115E56;
 				--bg-secondary: #212636;
@@ -18,9 +22,11 @@ const GlobalStyles = createGlobalStyle`
         --bg-primary-darker:#134f49;
         --bg-light:#ccfbef;
         --bg-white:#ffffff;
+
 				/* borders */
         --border-dark: #000000;
         --border-light-gray-blue: #DCDFE4;
+
         /* shadow */
         --shadow-type-1:'0px 5px 22px 0px #0000000a';
 			}

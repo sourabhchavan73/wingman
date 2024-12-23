@@ -5,6 +5,7 @@ import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import Dashboard from "./pages/Dashboard";
 import Chat from "./pages/Chat";
 import Sales from "./pages/Sales";
+import PageNotFound from "./pages/PageNotFound";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
             <Route path="dashboard" element={<Dashboard />} />
             <Route path="chat" element={<Chat />} />
             <Route path="sales" element={<Sales />} />
+            <Route path="*" element={<PageNotFound />}></Route>
           </Route>
         </Routes>
       </BrowserRouter>

@@ -1,6 +1,15 @@
 .text {
-  &.size-18 {
+  &.s-12 {
+    font-size: 12px;
+  }
+  &.s-14 {
+    font-size: 14px;
+  }
+  &.s-18 {
     font-size: 18px;
+  }
+  &.s-32 {
+    font-size: 32px;
   }
 
   //   color
@@ -9,5 +18,34 @@
   }
   &.text-light {
     color: var(--color-light);
+  }
+  &.text-gray {
+    color: var(--color-gray);
+  }
+  &.trend-up {
+    color: var(--color-trend-up);
+  }
+  &.trend-down {
+    color: var(--color-trend-down);
+  }
+
+  // font-weight;
+  &.w-400 {
+    font-weight: 400;
+  }
+  &.w-500 {
+    font-weight: 500;
+  }
+  &.w-600 {
+    font-weight: 600;
+  }
+  &.w-700 {
+    font-weight: 700;
+  }
+  &.w-800 {
+    font-weight: 800;
+  }
+  &.w-900 {
+    font-weight: 900;
   }
 }
